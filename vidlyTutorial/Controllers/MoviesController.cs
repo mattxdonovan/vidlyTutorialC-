@@ -13,18 +13,18 @@ namespace vidlyTutorial.Controllers
     {
         // GET: Movies/Random
 
-        public ActionResult Index()
+  /*      public ActionResult Index()
         {
             return View();
         }
-
+        */
         public ActionResult Random()
         {
             var movie = new Movie() { Name = "Shrek!" };
             var customers = new List<Customer>
             {
-                new Customer() { Name = "Customer 1" },
-                new Customer() { Name = "Customer 2" },
+                new Customer { Name = "Customer 1" },
+                new Customer { Name = "Customer 2" },
 
             };
 
